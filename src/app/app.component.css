@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
+.card {
+ width: 100%;
+ display: block;
+ background-color: #333941;
+ box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+ position: relative;
+ min-height: 250px;
+ border-radius: 5px;
+ margin-bottom:5px;
+ margin-right: 5px;
+ border: none;
+ overflow: hidden;
+ color: #0a0a0a;
+}
+.card-content {
+ text-align: center;
+ padding: 5px 20px;
+}
+.card h3,
+.card p {
+ font-family: 'Roboto', sans-serif;
+ color: white;
+}
+.card p {
+ font-weight: 300;
+}
