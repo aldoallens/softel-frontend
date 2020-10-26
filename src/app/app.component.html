@@ -12,9 +12,9 @@
         <canvas id="realtime">{{chart}}</canvas>
       </div>
       <div class="list-group  mt-4 ml-5 d-flex justify-content-end">
-        <a href="#" class="list-group-item list-group-item-action active">Usuarios Conectados</a>
-        <a href="#" class="list-group-item list-group-item-action">Todos los Usuarios</a>
-        <a href="#" class="list-group-item list-group-item-action">Documentos</a>
+        <a  class="list-group-item list-group-item-action list-group-item-action active" data-toggle="list" [routerLink]="['/ultimos-usuarios']" routerLinkActive="router-link-active">Usuarios Conectados</a>
+        <a  class="list-group-item list-group-item-action list-group-item-action" data-toggle="list" [routerLink]="['/todos-los-usuarios']" routerLinkActive="router-link" >Todos los Usuarios</a>
+        <a  class="list-group-item list-group-item-action list-group-item-action" data-toggle="list">Documentos</a>
       </div> 
     </div>
   </div>
