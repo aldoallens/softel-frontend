@@ -7,6 +7,10 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 <img src="https://github.com/aldoallens/softel-frontend/blob/main/src/assets/img/captura-inicio-V0.1.png" alt="captura de pantalla de la aplicasion (inicio) " width="650">
+<br>
+<img src="https://github.com/aldoallens/softel-frontend/blob/main/src/assets/img/captura-todosLosUsuarios-V0.1.png" alt="captura de pantalla de la aplicasion (inicio) " width="650">
+<br>
+<img src="https://github.com/aldoallens/softel-frontend/blob/main/src/assets/img/captura-documentos-V-0.1.png" alt="captura de pantalla de la aplicasion (inicio) " width="650">
 
 ## Code scaffolding
 
