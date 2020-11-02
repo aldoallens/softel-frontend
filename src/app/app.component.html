@@ -1,5 +1,5 @@
-<app-navbar></app-navbar>
-<div class="container-fluid mt-3 conte" style="background-color: azure;">
+<app-navbar (corEnlace)="coordinarEnlaces($event)"></app-navbar>
+<div class="container-fluid mt-3 conte">
   <div class="row">
     <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 mt-5">
       <router-outlet></router-outlet>
@@ -12,9 +12,9 @@
         <canvas id="realtime">{{chart}}</canvas>
       </div>
       <div class="list-group  mt-4 ml-5 d-flex justify-content-end">
-        <a  class="list-group-item list-group-item-action list-group-item-action active" data-toggle="list" [routerLink]="['/ultimos-usuarios']" routerLinkActive="router-link-active">Usuarios Conectados</a>
-        <a  class="list-group-item list-group-item-action list-group-item-action" data-toggle="list" [routerLink]="['/todos-los-usuarios']" routerLinkActive="router-link" >Todos los Usuarios</a>
-        <a  class="list-group-item list-group-item-action list-group-item-action" data-toggle="list">Documentos</a>
+        <a id="ilUsuariosConectados" class="list-group-item list-group-item-action list-group-item-action" data-toggle="list" [routerLink]="['/ultimos-usuarios']" routerLinkActive="router-link-active">Usuarios Conectados</a>
+        <a id="ilTodosLosUsuarios" class="list-group-item list-group-item-action list-group-item-action" data-toggle="list" [routerLink]="['/todos-los-usuarios']" routerLinkActive="router-link-active">Todos los Usuarios</a>
+        <a id="ilDocumentos" class="list-group-item list-group-item-action list-group-item-action" data-toggle="list" [routerLink]="['/documentos']" routerLinkActive="router-link-active">Documentos</a>
       </div> 
     </div>
   </div>

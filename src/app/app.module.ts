@@ -9,6 +9,7 @@ import { NavbarComponent } from './shared/navbar/navbar.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { UltimosUsuariosComponent } from './components/ultimosUsuarios/ultimos-usuarios.component';
 import { TodosLosUsuariosComponent } from './components/todosLosUsuarios/todos-los-usuarios.component';
+import { DocumentosComponent } from './components/documentos/documentos.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { TodosLosUsuariosComponent } from './components/todosLosUsuarios/todos-l
     NavbarComponent,
     FooterComponent,
     UltimosUsuariosComponent,
-    TodosLosUsuariosComponent
+    TodosLosUsuariosComponent,
+    DocumentosComponent
   ],
   imports: [
     BrowserModule,

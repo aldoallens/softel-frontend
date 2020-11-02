@@ -5,20 +5,20 @@
     </button>
     <div class="collapse navbar-collapse justify-content-end" id="navbarNav" >
       <ul class="navbar-nav">
-        <li class="nav-item active" routerLinkActive="router-link-active">
-          <a class="nav-link"  [routerLink]="['/ultimos-usuarios']">Usuarios conectados </a><span class="sr-only">(current)</span>
+        <li class="nav-item" routerLinkActive="router-link-active">
+          <a class="nav-link"  [routerLink]="['/ultimos-usuarios']" (click)="coordinarEnlace('ilUsuariosConectados')">Usuarios conectados </a><!-- <span class="sr-only">(current)</span> -->
         </li>
         <li class="nav-item" routerLinkActive="router-link-active">
-          <a class="nav-link"  [routerLink]="['/todos-los-usuarios']">Todos los usuarios</a><span class="sr-only">(current)</span>
+          <a class="nav-link"  [routerLink]="['/todos-los-usuarios']">Todos los usuarios</a><!-- <span class="sr-only">(current)</span> -->
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Documentos</a><span class="sr-only">(current)</span>
+        <li class="nav-item" routerLinkActive="router-link-active">
+          <a class="nav-link" [routerLink]="['/documentos']">Documentos</a><!-- <span class="sr-only">(current)</span> -->
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">
             <i class="fa fa-user" style="color: aliceblue;"></i>
             Usuario
-            <span class="sr-only">(current)</span>
+            <!-- <span class="sr-only">(current)</span> -->
             </a>
         </li>
       </ul>

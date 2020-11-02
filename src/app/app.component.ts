@@ -39,7 +39,7 @@ constructor(private http: HttpClient) {
 private ngOnInit(): void {
   this.intervalUpdate = setInterval(function(){
    this.showData();
-  }.bind(this), 1000);
+  }.bind(this), 3000);
   this.chart = new Chart('realtime', {
     type: 'line',
     data: {
@@ -122,6 +122,11 @@ private getFromAPI(): Observable<any>{
      'http://localhost:3000',
      { responseType: 'json' }
   );
+}
+coordinarEnlaces(elemento:string):void{
+  console.log(elemento+" hola :)");
+  document.getElementById(elemento).classList.toggle("router-link-active");
+  document.getElementById(elemento).classList.toggle("active");
 }
 
 }
